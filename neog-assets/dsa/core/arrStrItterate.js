@@ -1,0 +1,1 @@
+// str.length --> 1 sai counting start so -1 on it to stop or in reverse itteration
