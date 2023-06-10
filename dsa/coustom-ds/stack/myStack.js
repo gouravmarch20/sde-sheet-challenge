@@ -8,6 +8,7 @@ class Stack {
   pop() {
     return this.items.pop();
   }
+  //** allow to see top most element
   peek() {
     return this.items[this.items.length - 1];
   }

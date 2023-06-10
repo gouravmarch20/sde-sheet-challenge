@@ -1,9 +1,11 @@
+const findFibonacciNo = n => {
+  if (n <= 1) {
+    return n;
+  }
 
-const findFibonacciNo = (n) => {
-   if (n <= 1) {
-      return n
-   }
-   return (findFibonacciNo(n - 1) + findFibonacciNo(n - 2))
+  const first = findFibonacciNo (n - 1);
+  const second = findFibonacciNo (n - 2);
 
-}
-console.log(findFibonacciNo(8))
+  return first + second;
+};
+console.log (findFibonacciNo (4));

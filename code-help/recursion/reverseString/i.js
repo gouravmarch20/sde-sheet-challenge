@@ -1,3 +1,4 @@
+// ! to reverse we make it array
 const str = 'abcde'
 const reverseStr = (i, j, str) => {
    if (i > j) {

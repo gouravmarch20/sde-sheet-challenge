@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Solution
 {
 private:
@@ -30,3 +32,12 @@ public:
       return ans;
    }
 };
+
+// int main()
+// {
+//    Solution solution;
+
+//    int result = solution.solve({1, 2, 3});
+//    std::cout << "Result: " << result << std::endl;
+//    return 0;
+// }

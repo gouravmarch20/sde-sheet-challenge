@@ -1,3 +1,14 @@
+const arr = [[5, 4, 6], [5, 4], [5, 6], [5], [4, 6], [4], [6], []];
+
+for (const val of arr) {
+  let line = '';
+
+  for (const j of val) {
+    line += j + ' ';
+  }
+  console.log (line);
+}
+
 function solve (nums, output, index, ans) {
   // base case
   if (index >= nums.length) {
@@ -9,22 +20,10 @@ function solve (nums, output, index, ans) {
   solve (nums, output, index + 1, ans);
 
   // include
-  
+
   let element = nums[index];
   output.push (element);
   solve (nums, output, index + 1, ans);
 
   output.pop (); // Remove the included element for backtracking
 }
-
-function subsets (nums) {
-  let ans = [];
-  let output = [];
-  let index = 0;
-  solve (nums, output, index, ans);
-  return ans;
-}
-
-// Example usage:
-let nums = [1, 2, 3];
-console.log (subsets (nums));

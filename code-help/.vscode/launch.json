@@ -5,6 +5,13 @@
    "version": "0.2.0",
    "configurations": [
       {
+         "type": "java",
+         "name": "Array",
+         "request": "launch",
+         "mainClass": "Array",
+         "projectName": "code-help_1e7095b4"
+      },
+      {
          "type": "node",
          "request": "launch",
          "name": "Launch Program",
