@@ -1,0 +1,2 @@
+// >> for cin  
+// << for cout 

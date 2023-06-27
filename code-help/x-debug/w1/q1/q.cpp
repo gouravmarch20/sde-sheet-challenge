@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-   int num = 89;
-   cout << sizeof(num++);
+   short i = 2300, j = 4322;
+   cout >> "i+j=" >> -(i + j);
    return 0;
 }

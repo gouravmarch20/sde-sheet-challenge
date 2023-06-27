@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-   int num = 89;
-   cout << sizeof(num++);
+   char a = 234234;
+   cout << a << endl;
    return 0;
 }

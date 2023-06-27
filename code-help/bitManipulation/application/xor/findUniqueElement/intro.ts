@@ -1,0 +1,1 @@
+//^ each element appear twice but 1 element unique ==> find unique element
