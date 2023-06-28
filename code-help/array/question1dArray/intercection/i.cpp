@@ -13,14 +13,14 @@ int findUnique(vector<int> arr)
 
    return ans;
 }
-void printArray(vector<int> arr)
-{
-   for (auto i : arr)
-   {
-      cout << i << " ";
-   }
-   cout << endl;
-}
+// void printArray(vector<int> arr)
+// {
+//    for (auto i : arr)
+//    {
+//       cout << i << " ";
+//    }
+//    cout << endl;
+// }
 int main()
 {
 
@@ -98,7 +98,7 @@ int main()
 
    // UNION
    //  int arr[] = {1,3,5,7,9};
-  
+
    // INTERSECTION
 
    // vector<int> arr{1,2,3,3,4,6,8};
@@ -166,11 +166,7 @@ int main()
    // 	}
    // }
 
- 
-
-   vector<int> arr{0, 1, 0, 1, 1, 0, 1, 0, 1, 1};
- 
-  
+   vector <int> arr {0, 1, 0, 1, 1, 0, 1, 0, 1, 1};
 
    return 0;
 }
